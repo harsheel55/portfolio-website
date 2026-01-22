@@ -4,7 +4,6 @@ import {
     FiMapPin, 
     FiGithub, 
     FiLinkedin, 
-    FiTwitter, 
     FiArrowRight,
     FiCheck,
     FiCopy,

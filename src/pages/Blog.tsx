@@ -89,7 +89,7 @@ export const Blog: React.FC = () => {
 
                 {/* --- Blog Grid --- */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {filteredPosts.map((post, idx) => (
+                    {filteredPosts.map((post) => (
                         <article
                             key={post.id}
                             className="group flex flex-col h-full bg-zinc-900/40 border border-white/5 rounded-[2rem] overflow-hidden hover:border-white/20 transition-all duration-500 hover:shadow-2xl hover:shadow-white/5"

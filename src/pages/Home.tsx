@@ -18,8 +18,7 @@ import {
   SiMongodb, 
   SiMysql, 
   SiJavascript, 
-  SiExpress,
-  SiCplusplus
+  SiExpress
 } from 'react-icons/si';
 
 import { projects } from '../data/projects';

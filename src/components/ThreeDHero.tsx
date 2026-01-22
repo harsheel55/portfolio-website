@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { FiActivity, FiCode, FiCpu, FiGlobe, FiZap } from 'react-icons/fi';
+import { motion, useMotionValue, useSpring } from 'framer-motion';
+import { FiCode, FiCpu, FiGlobe, FiZap } from 'react-icons/fi';
 
 export const ThreeDHero: React.FC = () => {
     const ref = useRef<HTMLDivElement>(null);

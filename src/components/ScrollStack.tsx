@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useRef, useCallback, useEffect } from 'react';
+import React, { useLayoutEffect, useRef, useCallback } from 'react';
 import type { ReactNode } from 'react';
 import Lenis from 'lenis';
 
@@ -82,7 +82,6 @@ const ScrollStack: React.FC<ScrollStackProps> = ({
         translateY = stickyPoint - rect.top;
         
         // Scale down based on how many cards are on top
-        const cardsOnTop = cardsRef.current.length - index - 1;
         const nextCardProgress = index < cardsRef.current.length - 1 ? 
           (() => {
             const nextCard = cardsRef.current[index + 1];
@@ -169,7 +168,7 @@ const ScrollStack: React.FC<ScrollStackProps> = ({
     
     cardsRef.current = cards;
 
-    cards.forEach((card, index) => {
+    cards.forEach((card) => {
       card.style.position = 'sticky';
       card.style.top = '20vh';
       card.style.marginBottom = `${itemDistance}px`;

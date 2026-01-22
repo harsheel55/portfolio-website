@@ -5,7 +5,6 @@ import {
     FiAward, 
     FiUser, 
     FiMapPin, 
-    FiCoffee, 
     FiSmile, 
     FiActivity 
 } from 'react-icons/fi';

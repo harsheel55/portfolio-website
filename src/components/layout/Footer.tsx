@@ -4,9 +4,8 @@ import {
   FiLinkedin,
   FiTwitter,
   FiMail,
-  FiArrowUpRight,
-  FiHeart,
   FiArrowUp,
+  FiHeart,
 } from "react-icons/fi";
 
 export const Footer: React.FC = () => {
