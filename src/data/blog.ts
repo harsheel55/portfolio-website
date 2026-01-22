@@ -1,0 +1,48 @@
+import type { BlogPost } from '../types/index';
+
+export const blogPosts: BlogPost[] = [
+    {
+        id: 1,
+        title: 'Building Scalable React Applications',
+        excerpt: 'Learn best practices for building large-scale React applications that are maintainable and performant.',
+        content: 'Full blog content here...',
+        image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
+        category: 'React',
+        tags: ['React', 'JavaScript', 'Architecture'],
+        date: '2024-01-15',
+        readTime: 8,
+    },
+    {
+        id: 2,
+        title: 'TypeScript Tips and Tricks',
+        excerpt: 'Advanced TypeScript patterns that will make your code more type-safe and maintainable.',
+        content: 'Full blog content here...',
+        image: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=600&fit=crop',
+        category: 'TypeScript',
+        tags: ['TypeScript', 'JavaScript', 'Best Practices'],
+        date: '2024-02-01',
+        readTime: 6,
+    },
+    {
+        id: 3,
+        title: 'Mastering Tailwind CSS',
+        excerpt: 'A comprehensive guide to building beautiful, responsive UIs with Tailwind CSS.',
+        content: 'Full blog content here...',
+        image: 'https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=800&h=600&fit=crop',
+        category: 'CSS',
+        tags: ['Tailwind CSS', 'CSS', 'UI/UX'],
+        date: '2024-02-20',
+        readTime: 10,
+    },
+    {
+        id: 4,
+        title: 'Node.js Performance Optimization',
+        excerpt: 'Techniques and strategies to optimize your Node.js applications for better performance.',
+        content: 'Full blog content here...',
+        image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop',
+        category: 'Backend',
+        tags: ['Node.js', 'Performance', 'Backend'],
+        date: '2024-03-05',
+        readTime: 12,
+    },
+];
